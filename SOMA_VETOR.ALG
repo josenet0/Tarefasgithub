@@ -17,19 +17,25 @@ Inicio
 
       escreval
       escreva("Valores = ")
-      para i de 0 ate N-1 faca
-         escreva(vet[i]:3:1," ")
 
-      fimpara
+   fimpara
+   para i de 0 ate N-1 faca
+      escreva(vet[i]:3:1," ")
 
-      soma <- 0
-      media <- 0
-      para i de 0 ate N-1 faca
+   fimpara
 
-         soma <- soma + vet[i]
+   soma <- 0
+   media <- 0
+   para i de 0 ate N-1 faca
 
+      soma <- soma + vet[i]
 
-      fimpara
+   fimpara
 
+   escreval
+   escreval("Soma = ", soma:4:2)
+
+   media <- soma / N
+   escreval("Media = ", media:4:2)
 
 Fimalgoritmo
