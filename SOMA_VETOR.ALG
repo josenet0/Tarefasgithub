@@ -12,10 +12,24 @@ Inicio
    leia(N)
 
    para i de 0 ate N-1 faca
-     escreva("Digite um numero: ")
-     leia(vet[i])
+      escreva("Digite um numero: ")
+      leia(vet[i])
+
+      escreval
+      escreva("Valores = ")
+      para i de 0 ate N-1 faca
+         escreva(vet[i]:3:1," ")
+
+      fimpara
+
+      soma <- 0
+      media <- 0
+      para i de 0 ate N-1 faca
+
+         soma <- soma + vet[i]
 
 
+      fimpara
 
 
 Fimalgoritmo
